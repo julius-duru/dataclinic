@@ -1,0 +1,50 @@
+[[pages]]
+path = "app.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
+# beginner removed
+
+[[pages]]
+path = "pages/intermediate.py"
+name = "Intermediate"
+icon = "🟡"
+
+[[pages]]
+path = "pages/advanced.py"
+name = "Advanced"
+icon = "🔴"
+
+[[pages]]
+path = "pages/blog_home.py"
+name = "Blog"
+icon = "📰"
+
+[[pages]]
+path = "pages/programming_tools.py"
+name = "Programming & Tools"
+
+[[pages]]
+path = "pages/machine_learning.py"
+name = "Machine Learning"
+
+[[pages]]
+path = "pages/deep_learning_ai.py"
+name = "Deep Learning & AI"
+
+[[pages]]
+path = "pages/big_data_cloud.py"
+name = "Big Data & Cloud"
+
+[[pages]]
+path = "pages/applied_data_science.py"
+name = "Applied Data Science"
+
+[[pages]]
+path = "pages/data_ethics_governance.py"
+name = "Data Ethics"
+
+[[pages]]
+path = "pages/career_soft_skills.py"
+name = "Career Skills"
