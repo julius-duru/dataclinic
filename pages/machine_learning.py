@@ -45,7 +45,7 @@ def show():
     # Page Title
     # ---------------------------------------
 
-    st.title("🤖 Machine Learning Learning Path")
+    st.title("🤖 Machine Learning Path")
 
     st.write("Master predictive modeling, algorithms, and real-world AI applications.")
 
