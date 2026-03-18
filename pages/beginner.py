@@ -50,16 +50,15 @@ def show():
     st.write("Welcome to the **Beginner Learning Path**.")
 
     # ---------------------------------------
-    # Hero Image
+    # Image
     # ---------------------------------------
 
     st.image(
-        "images/analytics_hero.jpg",
+        "images/beginner_data_analytics.jpg",
         use_container_width=True
     )
 
     st.markdown("""
-Welcome to the **Beginner Data Analytics Learning Path**.
 
 This section is designed for individuals who are **new to data analytics
 or data science**.

@@ -32,12 +32,12 @@ def show():
     st.write("Explore practical, real-world projects across different areas of Data Science.")
 
     st.image(
-        "images/analytics_hero5.jpg",
+        "images/data_science_projects.jpg",
         use_container_width=True
     )
 
     st.markdown("""
-    Welcome to the **Data Science Project Showcase**.
+    Showcasing **Data Science Project **examples demonstrates mastery in the application of data science skills to solve real-world problems.
 
     This section highlights **hands-on projects** across multiple domains of data science including:
 

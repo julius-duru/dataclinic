@@ -46,12 +46,11 @@ def show():
 
     # Hero Banner
     st.image(
-        "images/analytics_hero2.jpg",
+        "images/advanced_data_analytics.jpg",
         use_container_width=True
     )
 
     st.markdown("""
-Welcome to the **Advanced Data Analytics Learning Path**.
 
 This track is designed for **experienced data analysts** ready to work with:
 

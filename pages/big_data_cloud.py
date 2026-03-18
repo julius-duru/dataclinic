@@ -29,9 +29,11 @@ def show():
     # Page Header
     # ------------------------------------------------
     st.title("📊 Big Data Explained")
+    
+    st.image("images/big_data.jpg", use_container_width=True)
 
     st.write("""
-If you’ve ever wondered how companies like **Netflix, Amazon, Google, or Facebook**
+If you have ever wondered how companies like **Netflix, Amazon, Google, or Facebook**
 handle billions of data points every single day, the answer usually involves **Big Data technologies**.
 
 Big Data refers to **extremely large and complex datasets that traditional databases
@@ -49,8 +51,6 @@ These datasets are often generated from sources such as:
 As the digital world grows, the amount of data generated globally is increasing at an **astonishing rate**.
 Organizations need powerful tools and systems to **store, process, and analyze this data efficiently**.
 """)
-
-    st.image("images/analytics_hero5.jpg", use_container_width=True)
 
     st.markdown("---")
 

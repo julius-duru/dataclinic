@@ -34,6 +34,16 @@ def show():
     st.write("""
 Deep learning is one of the most exciting areas in **artificial intelligence and data science**.
 
+""")
+
+    st.image(
+        "images/deep_learning.jpg",
+        use_container_width=True
+    )
+
+    st.markdown("---")
+
+    st.write("""
 You may have heard about technologies like **self-driving cars, voice assistants, facial recognition,
 or ChatGPT**. Behind many of these systems is a powerful technology called **deep learning**.
 
@@ -42,16 +52,7 @@ learn patterns from very large amounts of data.
 
 Unlike traditional machine learning models that require manual feature engineering,
 deep learning models are capable of **automatically learning complex patterns** from data.
-""")
 
-    st.image(
-        "images/analytics_hero5.jpg",
-        use_container_width=True
-    )
-
-    st.markdown("---")
-
-    st.write("""
 Think of deep learning as a way to **teach computers how to learn like humans**.
 
 Instead of explicitly programming rules, we allow models to learn patterns by
@@ -125,7 +126,7 @@ Each layer learns increasingly complex patterns.
     # ==================================================
     # Popular Deep Learning Architectures
     # ==================================================
-    st.subheader("🏗 Popular Deep Learning Architectures")
+    st.subheader("🏗 Deep Learning Architecture")
 
     st.write("""
 Different neural network architectures are designed for different types of problems.

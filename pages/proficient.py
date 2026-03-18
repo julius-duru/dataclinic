@@ -59,9 +59,7 @@ def show():
     )
 
     st.markdown("""
-Welcome to the **Proficient Data Analytics Learning Path**.
-
-This stage is designed for learners who already understand **basic analytics
+ **Proficient Data Analytics Learning Path** is designed for learners who already understand **basic analytics
 concepts and Python fundamentals** and want to deepen their ability to
 **analyze data, create insights, and build professional dashboards**.
 

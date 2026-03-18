@@ -29,21 +29,10 @@ def show():
     # ------------------------------------------------
     # Page Header
     # ------------------------------------------------
-    st.title("💻 Programming Tools for Data Analytics")
-
-    st.write("""
-If you're getting into **data analytics**, one of the first questions you might ask is:
-
-**“What tools do data professionals actually use?”**
-
-The good news is that the ecosystem is fairly consistent.  
-Most data analysts, data scientists, and machine learning engineers rely on a common set of **programming languages, development environments, and libraries**.
-
-This page walks you through the most important tools — and explains **when and why you might use each one**.
-""")
+    st.title("💻 Tools for Data Analytics")
 
     st.image(
-        "images/analytics_hero5.jpg",
+        "images/programming_tools.jpg",
         use_container_width=True
     )
 

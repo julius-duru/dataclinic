@@ -34,7 +34,7 @@ st.title("🖼️ Computer Vision in Data Science")
 st.write("Explore the technology that enables machines to **see, interpret, and understand the visual world**.")
 
 st.image(
-    "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "images/computer_vision.jpg",
     use_container_width=True
 )
 
@@ -43,7 +43,7 @@ st.markdown("---")
 # ------------------------------------------------
 # Overview of Computer Vision
 # ------------------------------------------------
-st.header("What is Computer Vision?")
+st.header("AI and Computer Vision: An Overview")
 st.write("""
 Computer Vision (CV) is a field of **Artificial Intelligence (AI)** that enables computers to **process and interpret visual information** from the world, such as images and videos.  
 Unlike humans, machines do not inherently “see” the world; CV combines **image processing, machine learning, and deep learning** to allow computers to recognize objects, detect patterns, and make predictions.

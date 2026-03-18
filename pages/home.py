@@ -3,17 +3,17 @@ import streamlit as st
 
 def show():
 
-    st.title("📊 Data Analytics Learning Hub")
+    st.title("📊 Home for Data Science & Analytics")
 
     # Hero Image
     st.image(
-        "images/analytics_hero3.jpg",
+        "images/data_analytics_hub.jpg",
         use_container_width=True
     )
 
     st.markdown(
         """
-Welcome to the **Data Analytics Learning Hub**, a platform designed to guide learners
+**Data Analytics Learning Hub** platform is designed to guide learners
 from beginner to advanced levels in **data science, analytics, and AI**.
 
 Whether you are starting your journey or looking to deepen your knowledge,

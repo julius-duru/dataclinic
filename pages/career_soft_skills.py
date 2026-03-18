@@ -33,12 +33,12 @@ st.markdown("---")
 
 def show():
 
-    st.title("💼 Career & Soft Skills for Data Professionals")
+    st.title("💼 Soft Skills for Data Professionals")
     st.write("Develop the essential **soft skills** and career capabilities to excel in data-related roles.")
 
     # Hero Image
     st.image(
-        "images/career_soft_skills.jpg",
+        "images/soft_skills.jpg",
         use_container_width=True
     )
 

@@ -47,12 +47,11 @@ def show():
 
     # Hero Image
     st.image(
-        "images/applied_data_science.jpg",
+        "images/applied_datascience.jpg",
         use_container_width=True
     )
 
     st.markdown("""
-Welcome to the **Applied Data Science Learning Guide**.
 
 Applied data science focuses on **using data, algorithms, and machine learning models
 to solve real business problems**.

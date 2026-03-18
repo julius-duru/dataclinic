@@ -3,7 +3,7 @@ import streamlit as st
 # ------------------------------------------------
 # Page Configuration
 # ------------------------------------------------
-st.set_page_config(page_title="Machine Learning Path", layout="wide")
+st.set_page_config(page_title="Machine Learning", layout="wide")
 
 # ------------------------------------------------
 # Top Navigation Links
@@ -45,7 +45,7 @@ def show():
     # Page Title
     # ---------------------------------------
 
-    st.title("🤖 Machine Learning Path")
+    st.title("🤖 Machine Learning")
 
     st.write("Master predictive modeling, algorithms, and real-world AI applications.")
 
@@ -54,14 +54,12 @@ def show():
     # ---------------------------------------
 
     st.image(
-        "images/analytics_hero5.jpg",
+        "images/machine_learning.jpg",
         use_container_width=True
     )
 
     st.markdown("""
-Welcome to the **Machine Learning Path**.
-
-This path is designed for learners who want to develop the ability to **build predictive models, analyze patterns in data, and deploy intelligent systems**.
+**Machine Learning Path** is designed for learners who want to develop the ability to **build predictive models, analyze patterns in data, and deploy intelligent systems**.
 
 Machine learning enables organizations to **predict outcomes, automate decisions, and uncover hidden insights from large datasets**.
 """)
