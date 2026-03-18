@@ -5,10 +5,10 @@ def show():  # ← wrap all page content in a show() function
     # -----------------------------
     # Page Title & Hero
     # -----------------------------
-    st.title("📊 Data Analytics Hub")
+    st.title("📊 Home for Data Science & Analytics")
 
     st.image(
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+        "images/data_analytics_hub.jpg",
         use_container_width=True
     )
 

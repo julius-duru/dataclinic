@@ -8,7 +8,7 @@ def show():
 
     # Hero Image
     st.image(
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+        "images/beginner_data_analytics.jpg",
         use_container_width=True
     )
 
