@@ -14,7 +14,7 @@ from blog import router
 # ------------------------------------------------
 
 st.set_page_config(
-    page_title="Data Analytics Learning Hub",
+    page_title="Welcome to Data Analytics Learning Hub",
     page_icon="📊",
     layout="wide"
 )
