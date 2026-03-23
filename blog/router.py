@@ -1,19 +1,20 @@
 import streamlit as st
 from blog.categories import CATEGORIES
 from blog.database import mysql_databases
+from blog.database import mysql_vs_postgressql
 from blog.misc import end_to_end_datascience
 from blog.misc import data_preprocessing
 
 def show():
 
-    st.title("📚 Data Analytics Blog")
+    st.title(" Data Analytics Blog")
 
     st.markdown("Search articles or browse by category.")
 
     st.markdown("---")
 
     # Search
-    query = st.text_input("🔎 Search Articles")
+    query = st.text_input(" Search Articles")
 
     if query:
 

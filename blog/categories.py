@@ -1,4 +1,4 @@
-from blog.database import mysql_databases
+from blog.database import mysql_databases, mysql_vs_postgressql
 from blog.misc import end_to_end_datascience
 from blog.misc import data_preprocessing
 
@@ -9,6 +9,11 @@ CATEGORIES = {
             "title": mysql_databases.TITLE,
             "keywords": mysql_databases.KEYWORDS,
             "module": mysql_databases
+        },
+         {
+            "title": mysql_vs_postgressql.TITLE,
+            "keywords": mysql_vs_postgressql.KEYWORDS,
+            "module": mysql_vs_postgressql
         }
     ],
 
