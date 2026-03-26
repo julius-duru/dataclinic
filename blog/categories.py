@@ -1,6 +1,6 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
-from blog.misc import end_to_end_datascience
-from blog.misc import data_preprocessing
+from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources
+from blog.data_engineering import data_cleanig_sql
 
 
 CATEGORIES = {
@@ -17,7 +17,13 @@ CATEGORIES = {
         }
     ],
 
-    "Data Engineering": [],
+    "Data Engineering": [
+        {
+            "title": data_cleanig_sql.TITLE,
+            "keywords": data_cleanig_sql.KEYWORDS,
+            "module": data_cleanig_sql
+        }        
+        ],
 
     "Deep Learning": [],
 
@@ -37,6 +43,11 @@ CATEGORIES = {
             "title": data_preprocessing.TITLE,
             "keywords": data_preprocessing.KEYWORDS,
             "module": data_preprocessing
+        },
+         {
+            "title": clean_other_data_sources.TITLE,
+            "keywords": clean_other_data_sources.KEYWORDS,
+            "module": clean_other_data_sources
         }
     ]
 }
