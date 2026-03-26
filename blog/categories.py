@@ -1,5 +1,5 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
-from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources
+from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge
 from blog.data_engineering import data_cleanig_sql
 
 
@@ -48,6 +48,11 @@ CATEGORIES = {
             "title": clean_other_data_sources.TITLE,
             "keywords": clean_other_data_sources.KEYWORDS,
             "module": clean_other_data_sources
+        },
+         {
+            "title": domain_knowledge.TITLE,
+            "keywords": domain_knowledge.KEYWORDS,
+            "module": domain_knowledge
         }
     ]
 }
