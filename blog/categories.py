@@ -1,4 +1,5 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
+from blog.machine_learning import ml_data_pipeline
 from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge
 from blog.data_engineering import data_cleanig_sql
 
@@ -27,7 +28,13 @@ CATEGORIES = {
 
     "Deep Learning": [],
 
-    "Machine Learning": [],
+    "Machine Learning": [
+        {
+            "title": ml_data_pipeline.TITLE,
+            "keywords": ml_data_pipeline.KEYWORDS,
+            "module": ml_data_pipeline
+        }
+    ],
 
     "Programming Tools": [],
 
