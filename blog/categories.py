@@ -1,7 +1,8 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
-from blog.machine_learning import ml_data_pipeline
+from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production  
 from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge
 from blog.data_engineering import data_cleanig_sql
+from blog.programming_tools import datascience_toolkit
 
 
 CATEGORIES = {
@@ -33,12 +34,35 @@ CATEGORIES = {
             "title": ml_data_pipeline.TITLE,
             "keywords": ml_data_pipeline.KEYWORDS,
             "module": ml_data_pipeline
+        },
+         {
+            "title": choosing_ml_model.TITLE,
+            "keywords": choosing_ml_model.KEYWORDS,
+            "module": choosing_ml_model
+        },
+        {
+            "title": ml_concept.TITLE,
+            "keywords": ml_concept.KEYWORDS,
+            "module": ml_concept
+        },
+        {
+            "title": model_retraining_in_production.TITLE,
+            "keywords": model_retraining_in_production.KEYWORDS,
+            "module": model_retraining_in_production
         }
     ],
 
-    "Programming Tools": [],
+    "Programming Tools": [
+        {
+            "title": datascience_toolkit.TITLE,
+            "keywords": datascience_toolkit.KEYWORDS,
+            "module": datascience_toolkit
+        }
+    ],
 
-    "Python": [],
+    "Natural Language Processing": [],
+    
+    "Computer Vision": [],
     
     "Misc": [
          {
