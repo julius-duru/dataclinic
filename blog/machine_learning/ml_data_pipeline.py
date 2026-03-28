@@ -380,10 +380,11 @@ def show():
         - **Streaming:** [Apache Kafka](https://kafka.apache.org/), [Apache Flink](https://flink.apache.org/)
         - **Storage:** [Delta Lake](https://delta.io/), [Apache Iceberg](https://iceberg.apache.org/), [Apache Hudi](https://hudi.apache.org/)
         - **Validation:** [Great Expectations](https://greatexpectations.io/), [Soda](https://www.soda.io/)
-        - **Observability:** [Evidently AI](https://evidentlyai.com/)
+        - **Observability:** [Evidently AI](https://evidentlyai.com/), [WhyLabs](https://whylabs.ai/)
         
         **Further Reading:**
         - [MLOps: Continuous Delivery for Machine Learning](https://ml-ops.org/)
         - [The Data Engineering Cookbook](https://github.com/andkret/Cookbook)
+        - [Designing Data-Intensive Applications](https://dataintensive.net/) by Martin Kleppmann
         """
     )
