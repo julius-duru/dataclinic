@@ -3,6 +3,7 @@ from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_mode
 from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge
 from blog.data_engineering import data_cleanig_sql
 from blog.programming_tools import datascience_toolkit
+from blog.data_engineering import missing_values
 
 
 CATEGORIES = {
@@ -12,7 +13,7 @@ CATEGORIES = {
             "keywords": mysql_databases.KEYWORDS,
             "module": mysql_databases
         },
-         {
+        {
             "title": mysql_vs_postgressql.TITLE,
             "keywords": mysql_vs_postgressql.KEYWORDS,
             "module": mysql_vs_postgressql
@@ -24,7 +25,12 @@ CATEGORIES = {
             "title": data_cleanig_sql.TITLE,
             "keywords": data_cleanig_sql.KEYWORDS,
             "module": data_cleanig_sql
-        }        
+        },
+        {
+            "title": missing_values.TITLE,
+            "keywords": missing_values.KEYWORDS,
+            "module": missing_values
+        }         
         ],
 
     "Deep Learning": [],
@@ -35,7 +41,7 @@ CATEGORIES = {
             "keywords": ml_data_pipeline.KEYWORDS,
             "module": ml_data_pipeline
         },
-         {
+        {
             "title": choosing_ml_model.TITLE,
             "keywords": choosing_ml_model.KEYWORDS,
             "module": choosing_ml_model
@@ -75,12 +81,12 @@ CATEGORIES = {
             "keywords": data_preprocessing.KEYWORDS,
             "module": data_preprocessing
         },
-         {
+        {
             "title": clean_other_data_sources.TITLE,
             "keywords": clean_other_data_sources.KEYWORDS,
             "module": clean_other_data_sources
         },
-         {
+        {
             "title": domain_knowledge.TITLE,
             "keywords": domain_knowledge.KEYWORDS,
             "module": domain_knowledge
