@@ -467,7 +467,7 @@ def show():
         
         **Further Reading:**
         - [scikit-learn Guide: Imputation of missing values](https://scikit-learn.org/stable/modules/impute.html)
-        - [Multiple Imputation by Chained Equations (MICE)](https://www.stefvanbuuren.nl/publications/MICE%20in%20R%20-%20Draft.pdf)
+        - [Multiple Imputation by Chained Equations (MICE)](https://stefvanbuuren.name/publications/MICE%20V1.0%20Manual%20TNO00038%202000.pdf)
         
         **Visualization Tools:**
         - Missingno heatmaps and dendrograms for missing pattern analysis
