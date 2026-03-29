@@ -466,7 +466,6 @@ def show():
         - [statsmodels](https://www.statsmodels.org/): MICE implementation
         
         **Further Reading:**
-        - [Statistical Analysis with Missing Data](https://www.wiley.com/en-us/Statistical+Analysis+with+Missing+Data%2C+3rd+Edition-p-9781119484648) by Little & Rubin
         - [scikit-learn Guide: Imputation of missing values](https://scikit-learn.org/stable/modules/impute.html)
         - [Multiple Imputation by Chained Equations (MICE)](https://www.stefvanbuuren.nl/publications/MICE%20in%20R%20-%20Draft.pdf)
         
