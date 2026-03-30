@@ -1,9 +1,8 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production  
-from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge
-from blog.data_engineering import data_cleanig_sql
+from blog.misc import end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design
+from blog.data_engineering import data_cleanig_sql, missing_values
 from blog.programming_tools import datascience_toolkit
-from blog.data_engineering import missing_values
 
 
 CATEGORIES = {
@@ -85,6 +84,11 @@ CATEGORIES = {
             "title": clean_other_data_sources.TITLE,
             "keywords": clean_other_data_sources.KEYWORDS,
             "module": clean_other_data_sources
+        },
+        {
+            "title": dashboard_kpi_design.TITLE,
+            "keywords": dashboard_kpi_design.KEYWORDS,
+            "module": dashboard_kpi_design
         },
         {
             "title": domain_knowledge.TITLE,
