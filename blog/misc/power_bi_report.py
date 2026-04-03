@@ -359,6 +359,7 @@ def show():
         **Further Reading:**
         
         - [DAX Guide](https://dax.guide/): Complete reference for DAX functions
+        - [Power Query Guide](https://devinknightsql.com/category/power-query/): Blog posts and tutorials on Power Query
        
         """
     )
