@@ -1,6 +1,6 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production  
-from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report
+from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow
 from blog.data_engineering import data_cleanig_sql, missing_values
 from blog.programming_tools import datascience_toolkit
 
@@ -99,6 +99,11 @@ CATEGORIES = {
             "title": power_bi_report.TITLE,
             "keywords": power_bi_report.KEYWORDS,
             "module": power_bi_report
+        },
+        {
+            "title": mlops_workflow.TITLE,
+            "keywords": mlops_workflow.KEYWORDS,
+            "module": mlops_workflow
         },
         {
             "title": domain_knowledge.TITLE,
