@@ -7,7 +7,7 @@ KEYWORDS = ["MLOps", "model serialization", "pickle vs joblib", "model retrainin
 
 
 def show():
-    st.title("Modern MLOps Workflow: From Training to Production with Automated Retraining")
+    st.title("Modern MLOps Workflow - Training to Production with Automated Retraining")
     st.caption("Category: misc | Level: Intermediate → Advanced")
     st.markdown("---")
     
