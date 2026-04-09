@@ -1,11 +1,10 @@
 import streamlit as st
 from blog.categories import CATEGORIES
-from blog.database import mysql_databases
-from blog.database import mysql_vs_postgressql
+from blog.database import mysql_vs_postgressql, mysql_databases
 from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow
 from blog.programming_tools import datascience_toolkit 
-from blog.data_engineering import missing_values
+from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecycle_management
 
 
 def show():
