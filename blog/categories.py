@@ -1,5 +1,5 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
-from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production  
+from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow
 from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow
 from blog.data_engineering import data_cleanig_sql, missing_values
 from blog.programming_tools import datascience_toolkit
@@ -39,6 +39,11 @@ CATEGORIES = {
             "title": ml_data_pipeline.TITLE,
             "keywords": ml_data_pipeline.KEYWORDS,
             "module": ml_data_pipeline
+        },
+        {
+            "title": machine_learning_workflow.TITLE,
+            "keywords": machine_learning_workflow.KEYWORDS,
+            "module": machine_learning_workflow
         },
         {
             "title": choosing_ml_model.TITLE,
