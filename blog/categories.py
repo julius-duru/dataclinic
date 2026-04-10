@@ -1,9 +1,10 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow
-from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow
+from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow, data_governance
 from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi
+from blog.misc import mlops_frameworks 
 
 
 CATEGORIES = {
@@ -98,6 +99,16 @@ CATEGORIES = {
             "title": data_preprocessing.TITLE,
             "keywords": data_preprocessing.KEYWORDS,
             "module": data_preprocessing
+        },
+        {
+            "title": mlops_frameworks.TITLE,
+            "keywords": mlops_frameworks.KEYWORDS,
+            "module": mlops_frameworks
+        },
+        {
+            "title": data_governance.TITLE,
+            "keywords": data_governance.KEYWORDS,
+            "module": data_governance
         },
         {
             "title": storytelling_with_data.TITLE,
