@@ -5,7 +5,7 @@ from blog.misc import storytelling_with_data, end_to_end_datascience, data_prepr
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow
 from blog.programming_tools import datascience_toolkit 
 from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecycle_management
-
+from blog.data_visualization import power_bi
 
 def show():
 
