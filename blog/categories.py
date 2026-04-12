@@ -1,10 +1,11 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
-from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow
+from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow, mlops_pipeline
 from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow, data_governance
 from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi
 from blog.misc import mlops_frameworks 
+from blog.docker import docker_setup 
 
 
 CATEGORIES = {
@@ -48,6 +49,14 @@ CATEGORIES = {
             "module": power_bi
         }
     ],
+    
+      "Docker": [
+        {
+            "title": docker_setup.TITLE,
+            "keywords": docker_setup.KEYWORDS,
+            "module": docker_setup
+        }
+    ],
 
     "Machine Learning": [
         {
@@ -69,6 +78,11 @@ CATEGORIES = {
             "title": ml_concept.TITLE,
             "keywords": ml_concept.KEYWORDS,
             "module": ml_concept
+        },
+        {
+            "title": mlops_pipeline.TITLE,
+            "keywords": mlops_pipeline.KEYWORDS,
+            "module": mlops_pipeline
         },
         {
             "title": model_retraining_in_production.TITLE,
