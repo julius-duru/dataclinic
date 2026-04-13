@@ -4,7 +4,7 @@ from blog.misc import storytelling_with_data, end_to_end_datascience, data_prepr
 from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi
-from blog.misc import mlops_frameworks 
+from blog.misc import mlops_frameworks, securing_model
 from blog.docker import docker_setup 
 
 
@@ -113,6 +113,11 @@ CATEGORIES = {
             "title": data_preprocessing.TITLE,
             "keywords": data_preprocessing.KEYWORDS,
             "module": data_preprocessing
+        },
+        {
+            "title": securing_model.TITLE,
+            "keywords": securing_model.KEYWORDS,
+            "module": securing_model
         },
         {
             "title": mlops_frameworks.TITLE,

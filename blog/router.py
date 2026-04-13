@@ -6,7 +6,7 @@ from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_mode
 from blog.programming_tools import datascience_toolkit 
 from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecycle_management
 from blog.data_visualization import power_bi
-from blog.misc import mlops_frameworks
+from blog.misc import mlops_frameworks, securing_model
 from blog.docker import docker_setup
 
 def show():
