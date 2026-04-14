@@ -103,10 +103,6 @@ CATEGORIES = {
             "module": datascience_toolkit
         }
     ],
-
-    "Natural Language Processing": [],
-    
-    "Computer Vision": [],
     
     "Misc": [
          {
