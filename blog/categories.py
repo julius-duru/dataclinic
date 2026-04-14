@@ -5,6 +5,7 @@ from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecy
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi, power_bi_visualization_tools
 from blog.misc import mlops_frameworks, securing_model
+from blog.deep_learning import deep_learning_guide
 from blog.docker import docker_setup 
 
 
@@ -40,7 +41,13 @@ CATEGORIES = {
         }         
     ],
 
-    "Deep Learning": [],
+    "Deep Learning": [
+        {
+            "title": deep_learning_guide.TITLE,
+            "keywords": deep_learning_guide.KEYWORDS,
+            "module": deep_learning_guide
+        }
+        ],
     
     "Data Visualization": [
         {

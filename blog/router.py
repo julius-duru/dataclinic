@@ -7,6 +7,7 @@ from blog.programming_tools import datascience_toolkit
 from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecycle_management
 from blog.data_visualization import power_bi, power_bi_visualization_tools
 from blog.misc import mlops_frameworks, securing_model
+from blog.deep_learning import deep_learning_guide
 from blog.docker import docker_setup
 
 def show():
