@@ -8,7 +8,7 @@ from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecy
 from blog.data_visualization import power_bi, power_bi_visualization_tools
 from blog.misc import mlops_frameworks, securing_model
 from blog.deep_learning import deep_learning_guide
-from blog.docker import docker_setup
+from blog.docker import docker_setup, docker_guide, flask_mysql_in_docker, flask_postgresql_in_docker
 
 def show():
 
