@@ -4,8 +4,8 @@ from blog.misc import storytelling_with_data, end_to_end_datascience, data_prepr
 from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi, power_bi_visualization_tools
-from blog.misc import mlops_frameworks, securing_model
-from blog.deep_learning import deep_learning_guide
+from blog.misc import mlops_frameworks, securing_model, data_story
+from blog.deep_learning import deep_learning_guide, cnn_and_rnn, ann_end_to_end, ann_cnn_rnn_lstm
 from blog.docker import docker_setup, docker_guide, flask_mysql_in_docker, flask_postgresql_in_docker
 
 
@@ -46,6 +46,21 @@ CATEGORIES = {
             "title": deep_learning_guide.TITLE,
             "keywords": deep_learning_guide.KEYWORDS,
             "module": deep_learning_guide
+        },
+        {
+            "title": cnn_and_rnn.TITLE,
+            "keywords": cnn_and_rnn.KEYWORDS,
+            "module": cnn_and_rnn
+        },
+        {
+            "title": ann_end_to_end.TITLE,
+            "keywords": ann_end_to_end.KEYWORDS,
+            "module": ann_end_to_end
+        },
+        {
+          "title": ann_cnn_rnn_lstm.TITLE,
+            "keywords": ann_cnn_rnn_lstm.KEYWORDS,
+            "module": ann_cnn_rnn_lstm  
         }
         ],
     
@@ -132,6 +147,11 @@ CATEGORIES = {
             "keywords": end_to_end_datascience.KEYWORDS,
             "module": end_to_end_datascience
         },
+         {
+           "title": data_story.TITLE,
+            "keywords": data_story.KEYWORDS,
+            "module": data_story  
+         },
         {
             "title": data_preprocessing.TITLE,
             "keywords": data_preprocessing.KEYWORDS,
