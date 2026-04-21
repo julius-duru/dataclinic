@@ -255,7 +255,7 @@ def show():
         2. Install DVC and version your dataset – run `dvc add` and commit the metadata.  
         3. Write a one‑page “data governance light” doc for your team: who owns which datasets, what’s our deletion process, and which columns contain PII.
 
-        You’ve got this. Now go build something awesome – and responsible. 🚀
+        You’ve got this. Now go build something awesome – and responsible. 
         """
     )
     st.markdown("---")

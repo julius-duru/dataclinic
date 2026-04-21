@@ -8,7 +8,7 @@ KEYWORDS = ["mlops", "machine learning", "data engineering", "ai systems", "depl
 
 def show():
 
-    st.title("🧠 Procedure for Designing an Intelligent System")
+    st.title(" Procedure for Designing an Intelligent System")
 
     st.caption("Category: Misc | Level: Advanced")
 
@@ -33,7 +33,7 @@ def show():
     # -----------------------------
     # PHASE 1
     # -----------------------------
-    st.header("📌 Phase 1: Problem Definition & Scoping")
+    st.header("Phase 1: Problem Definition & Scoping")
 
     st.write(
         """
@@ -78,7 +78,7 @@ def show():
     # -----------------------------
     # PHASE 2
     # -----------------------------
-    st.header("📊 Phase 2: Data Strategy & Engineering")
+    st.header("Phase 2: Data Strategy & Engineering")
 
     st.write("Data is the foundation of all AI intelligent systems.")
 
@@ -140,7 +140,7 @@ def show():
     # -----------------------------
     # PHASE 3
     # -----------------------------
-    st.header("🏗 Phase 3: Infrastructure & Architecture")
+    st.header("Phase 3: Infrastructure & Architecture")
 
     st.markdown(
         """
@@ -157,7 +157,7 @@ def show():
     # -----------------------------
     # PHASE 4
     # -----------------------------
-    st.header("⚙ Phase 4: Model Development & Experimentation")
+    st.header("Phase 4: Model Development & Experimentation")
 
     st.subheader("4.1 Baseline Model")
     st.write("Start simple before moving to complex models.")
@@ -211,7 +211,7 @@ def show():
     # -----------------------------
     # PHASE 5
     # -----------------------------
-    st.header("📈 Phase 5: Evaluation & Explainability")
+    st.header("Phase 5: Evaluation & Explainability")
     st.markdown(
         """
         Before deployment, validate the model’s reliability and trustworthiness.
@@ -244,7 +244,7 @@ def show():
     # -----------------------------
     # PHASE 6
     # -----------------------------
-    st.header("🚀 Phase 6: Deployment")
+    st.header("Phase 6: Deployment")
 
     st.markdown(
         """
@@ -280,7 +280,7 @@ def show():
     # -----------------------------
     # PHASE 7
     # -----------------------------
-    st.header("📡 Phase 7: Monitoring & Observability")
+    st.header(" Phase 7: Monitoring & Observability")
 
     st.markdown(
         """
@@ -303,7 +303,7 @@ def show():
     # -----------------------------
     # PHASE 8
     # -----------------------------
-    st.header("🔄 Phase 8: Iteration & Continuous Improvement")
+    st.header(" Phase 8: Iteration & Continuous Improvement")
 
     st.markdown(
         """
@@ -320,7 +320,7 @@ def show():
     # -----------------------------
     # PHASE 9
     # -----------------------------
-    st.header("⚖ Phase 9: Governance, Ethics & Compliance")
+    st.header(" Phase 9: Governance, Ethics & Compliance")
 
     st.markdown(
         """
@@ -339,7 +339,7 @@ def show():
     # -----------------------------
     # WORKFLOW
     # -----------------------------
-    st.header("🔁 System Workflow")
+    st.header(" System Workflow")
 
     st.code(
         """
