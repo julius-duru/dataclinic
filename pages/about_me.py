@@ -48,12 +48,12 @@ st.image(
 
 st.markdown(
 """
-## 👋 Welcome
+# A resource center for Data Science ideas.
 
-I am **Julius Duru**, a Data Analytics and Data Science professional
+I am **Julius Duru**, a Data Science professional
 focused on transforming raw data into actionable insights.
 
-Through analytics, machine learning, and data visualization,
+Through data analytics, machine learning, deep learning, MLOps and data visualization,
 I help organizations make data-driven decisions and build
 scalable analytics solutions.
 """
@@ -78,15 +78,15 @@ with col2:
     st.header("About Me")
 
     st.write("""
-Data Analytics and Data Science professional passionate about
+Data Science professional passionate about
 transforming raw data into meaningful insights.
 
-Experienced in building **data analytics platforms, data cleaning, machine learning models, designing python web apps based on data analytics and insights,
+Experienced in building **data analytics platforms, data cleaning, machine learning models, deep learning, designing python web apps based on data analytics and insights,
 and interactive dashboards**.
 """)
 
-    st.write("📍 Location: Lagos, Nigeria")
-    st.write("💼 Role: Data Analyst / Data Scientist")
+    st.write("Location: Lagos, Nigeria")
+    st.write("Roles: Data Analyst / Data Scientist / Presales")
 
 st.markdown("---")
 
@@ -95,45 +95,48 @@ st.markdown("---")
 # Skills Section
 # ------------------------------------------------
 
-st.header("⚙️ Technical Skills")
+st.header("Technical Skills")
 
 skill1, skill2, skill3, skill4 = st.columns(4)
 
 with skill1:
-    st.subheader("Python")
+    st.subheader("Data Science")
     st.write("""
-• Pandas  
-• NumPy  
-• Data Analysis  
+•Python and R 
+•Data Analysis  
+•Machine Learning 
+•Deep Learning  
+•Kafka 
+•Pyspark 
 """)
 
 with skill2:
     st.subheader("Databases")
     st.write("""
-• MongoDB  
-• MySQL  
-• PostgreSQL  
-• SQL Server  
-• Data Modeling & Pipelines
+•MongoDB  
+•MySQL  
+•PostgreSQL  
+•SQL Server  
 """)
 
 with skill3:
-    st.subheader("Machine Learning")
+    st.subheader("Visualization")
     st.write("""
-• Classification  
-• Regression  
-• Model Evaluation  
+•Power BI  
+•Tableau  
+•Matplotlib  
+•Seaborn 
 """)
 
 with skill4:
-    st.subheader("Visualization")
+    st.subheader("Deployment")
     st.write("""
-• Matplotlib  
-• Seaborn  
-• Plotly  
-• Power BI  
-• Tableau  
-• Streamlit Dashboards  
+•Docker 
+•VMware
+•AWS EKS, EC2, S3 storage
+•Streamlit  
+•FastAPI  
+•Flask   
 """)
 
 st.markdown("---")
@@ -143,7 +146,7 @@ st.markdown("---")
 # Portfolio Links
 # ------------------------------------------------
 
-st.header("🌐 Portfolio")
+st.header("Portfolio")
 
 col1, col2, col3 = st.columns(3)
 
@@ -154,4 +157,4 @@ with col2:
     st.markdown("🔗 [LinkedIn](https://linkedin.com/in/duruj)")
 
 with col3:
-    st.markdown("🔗 [Portfolio Website](https://julius-duru.github.io/)")
+    st.markdown("🔗 [Portfolio](https://julius-duru.github.io/)")
