@@ -6,7 +6,7 @@ from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_mode
 from blog.programming_tools import datascience_toolkit 
 from blog.data_engineering import missing_values, data_cleanig_sql, model_lifecycle_management, etl_and_elt_pipelines, data_pipelines
 from blog.data_visualization import power_bi, power_bi_visualization_tools
-from blog.misc import mlops_frameworks, securing_model
+from blog.misc import mlops_frameworks, securing_model, time_series_models
 from blog.deep_learning import deep_learning_guide, cnn_and_rnn, ann_end_to_end, ann_cnn_rnn_lstm
 from blog.docker import docker_setup, docker_guide, flask_mysql_in_docker, flask_postgresql_in_docker
 
