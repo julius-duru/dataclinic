@@ -1,7 +1,7 @@
 from blog.database import mysql_databases, mysql_vs_postgressql
 from blog.machine_learning import ml_data_pipeline, ml_concept, choosing_ml_model, model_retraining_in_production, machine_learning_workflow, mlops_pipeline
 from blog.misc import storytelling_with_data, end_to_end_datascience, data_preprocessing, clean_other_data_sources, domain_knowledge,dashboard_kpi_design, power_bi_report, mlops_workflow, data_governance, mlops_frameworks, securing_model, data_story
-from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management
+from blog.data_engineering import data_cleanig_sql, missing_values, model_lifecycle_management, etl_and_elt_pipelines, data_pipelines
 from blog.programming_tools import datascience_toolkit
 from blog.data_visualization import power_bi, power_bi_visualization_tools
 from blog.deep_learning import deep_learning_guide, cnn_and_rnn, ann_end_to_end, ann_cnn_rnn_lstm
@@ -31,6 +31,16 @@ CATEGORIES = {
             "title": model_lifecycle_management.TITLE,
             "keywords": model_lifecycle_management.KEYWORDS,
             "module": model_lifecycle_management
+        },
+        {
+            "title": etl_and_elt_pipelines.TITLE,
+            "keywords": etl_and_elt_pipelines.KEYWORDS,
+            "module": etl_and_elt_pipelines
+        },
+        {
+            "title": data_pipelines.TITLE,
+            "keywords": data_pipelines.KEYWORDS,
+            "module": data_pipelines
         },
         {
             "title": missing_values.TITLE,
